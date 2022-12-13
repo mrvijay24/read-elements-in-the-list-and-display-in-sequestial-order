@@ -1,0 +1,7 @@
+#program ro read districts in the state and display in sequential order
+n=int(input("enter the number of districts in the state:"))
+districts=[]
+for i in range(n):
+    x=input("enter the state name:")
+    districts.append(x)
+print(districts)
